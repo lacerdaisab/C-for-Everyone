@@ -1,6 +1,6 @@
 /* Read in three floats and print sum
 by Isabel Lacerda
-November 12th, 2021 */
+Nov. 12, 2021 */
 
 #include <stdio.h>
 
