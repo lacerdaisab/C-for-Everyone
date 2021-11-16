@@ -1,6 +1,8 @@
 /* Recursive vs. Iterative Factorial
-by Isabel Lacerda
-Nov. 16, 2021 */
+   by Isabel Lacerda
+   Nov. 16, 2021 
+   n! = 1 * 2 * 3 * ... * n 
+*/
 
 #include <stdio.h>
 
