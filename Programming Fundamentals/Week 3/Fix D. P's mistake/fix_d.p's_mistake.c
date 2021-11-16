@@ -10,20 +10,15 @@ But if sine(2.4)  is -0.675 then its absolute value is 0.675.  */
 #include<stdio.h>
 #include<math.h> //has  sin(), abs(), and fabs()
 
-int main(void)
-{ 
-double interval;
-int i, sinInterval = sin(interval);
-
-for(i = 0; i <30; i++)
-{
-    interval = i/10.0;
-    printf("sin( %lf ) = %lf \t", interval, fabs(sinInterval));
-}
-
-
-printf("\n+++++++\n");
-return 0;
+int main(void) { 
+    double interval;
+    int i, sinInterval = sin(interval);
+    for(i = 0; i <30; i++) {
+        interval = i/10.0;
+        printf("sin( %lf ) = %lf \t", interval, fabs(sinInterval));
+    }
+    printf("\n+++++++\n");
+    return 0;
 }
 
 
